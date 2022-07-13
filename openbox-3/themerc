@@ -1,0 +1,163 @@
+# Name: Oomox (Numix fork) Openbox theme
+# Author: Satyajit Sahoo <satyajit.happy@gmail.com>
+# License: GPL-3.0+
+
+# @TODO: finish replacing the colors here
+
+
+# Menu
+menu.border.color: #d6cdee
+
+menu.title.bg: Solid Flat
+menu.title.bg.color: #291b36
+menu.title.bg.shadow: 0
+menu.title.text.color: #d6cdee
+menu.title.text.justify: Center
+
+menu.items.bg: Solid Flat
+menu.items.bg.color: #291b36
+menu.items.text.color: #d6cdee
+menu.items.disabled.text.color: #aaa0c0
+
+menu.items.active.bg: Solid Flat
+menu.items.active.bg.color: #a886ef
+menu.items.active.text.color: #d6cdee
+
+menu.separator.color: #aaa0c0
+menu.separator.width: 1
+menu.separator.padding.width: 2
+menu.separator.padding.height: 4
+
+# Window focused
+window.active.title.separator.color: #291b36
+
+# Active window
+window.active.border.color: #a886ef
+
+
+window.active.title.bg: flat solid
+window.active.title.bg.color: #291b36
+window.active.title.separator.color: #291b36
+window.active.text.justify: center
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #d6cdee
+
+window.active.handle.bg: flat solid
+window.active.handle.bg.color: #291b36
+
+window.active.grip.bg: flat solid
+window.active.grip.bg.color: #291b36
+
+window.active.button.unpressed.bg: flat solid
+window.active.button.unpressed.bg.color: #291b36
+window.active.button.unpressed.image.color: #d6cdee
+
+window.active.button.pressed.bg: flat solid
+window.active.button.pressed.bg.color: #291b36
+window.active.button.pressed.image.color: #ffffff
+
+window.active.button.disabled.bg: flat solid
+window.active.button.disabled.bg.color: #291b36
+window.active.button.disabled.image.color: #aaa0c0
+
+window.active.button.hover.bg: flat solid
+window.active.button.hover.bg.color: #291b36
+window.active.button.hover.image.color: #d6cdee
+
+#window.active.button.toggled.bg: #a886ef
+#window.active.button.toggled.image.color: #ffffff
+
+# Specific button colors
+window.active.button.close.unpressed.image.color: #ff7979
+window.active.button.iconify.unpressed.image.color: #f3ae7c
+window.active.button.max.unpressed.image.color: #95d34c
+window.active.button.max.pressed.image.color: #95d34c
+window.active.button.max.toggled.unpressed.image.color: #95d34c
+window.active.button.max.toggled.pressed.image.color: #95d34c
+
+# Inactive window
+window.inactive.border.color: #313148
+
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #291b36
+window.inactive.title.separator.color: #291b36
+window.inactive.text.justify: center
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #aaa0c0
+
+window.inactive.handle.bg: flat solid
+window.inactive.handle.bg.color: #291b36
+
+window.inactive.grip.bg: flat solid
+window.inactive.grip.bg.color: #291b36
+
+window.inactive.button.unpressed.bg: flat solid
+window.inactive.button.unpressed.bg.color: #291b36
+window.inactive.button.unpressed.image.color: #746e9f
+
+window.inactive.button.pressed.bg: flat solid
+window.inactive.button.pressed.bg.color: #291b36
+window.inactive.button.pressed.image.color: #ffffff
+
+window.inactive.button.disabled.bg: flat solid
+window.inactive.button.disabled.bg.color: #aaa0c0
+window.inactive.button.disabled.image.color: #291b36
+
+window.inactive.button.hover.bg: flat solid
+window.inactive.button.hover.bg.color: #291b36
+window.inactive.button.hover.image.color: #a886ef
+
+
+# OSD
+osd.border.width: 1
+osd.border.color: #a886ef
+
+osd.bg: flat solid
+osd.bg.color: #291b36
+osd.label.bg: flat solid
+osd.label.bg.color: #291b36
+osd.label.text.color: #d6cdee
+
+# OSD
+osd.bg: Solid Flat
+osd.bg.color: #291b36
+osd.bg.shadow: 0
+
+osd.border.width: 2
+osd.hilight.bg: Solid Flat
+osd.hilight.bg.color: #a886ef
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #291b36
+
+osd.button.unpressed.bg: flat border
+osd.button.unpressed.bg.color: #291b36
+#osd.button.unpressed.*.border.color: #d6cdee
+
+osd.button.pressed.bg: flat border
+osd.button.pressed.bg.color: #a886ef
+#osd.button.pressed.*.border.color: #ffffff
+
+osd.button.focused.bg: flat solid border
+osd.button.focused.bg.color: #d6cdee
+#osd.button.focused.*.border.color: #291b36
+
+osd.button.focused.box.color: #a886ef
+
+
+# Fonts
+window.active.label.text.font:shadow=n
+window.inactive.label.text.font:shadow=n
+menu.items.font:shadow=n
+menu.title.text.font:shadow=n
+
+
+# Everything else
+border.width: 2
+padding.width: 4
+padding.height: 4
+window.handle.width: 0
+window.client.padding.width: 0
+window.label.text.justify: center
+#menu.overlap: 0
