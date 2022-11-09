@@ -1,21 +1,24 @@
-# Name: Oomox (Numix fork) Openbox theme
-# Author: Satyajit Sahoo <satyajit.happy@gmail.com>
+# Name: Oomox (Numix fork) Openbox theme, modified for custom theme
+# Original Author: Satyajit Sahoo <satyajit.happy@gmail.com>
+# Modified by: Antti Joutsi <antti.joutsi@gmail.com>
 # License: GPL-3.0+
 
 # @TODO: finish replacing the colors here
 
-
 # Menu
-menu.border.color: #d6cdee
+menu.border.width: 20
+menu.overlap.x: -10
+
+menu.border.color: #111122
 
 menu.title.bg: Solid Flat
-menu.title.bg.color: #291b36
+menu.title.bg.color: #111122
 menu.title.bg.shadow: 0
 menu.title.text.color: #d6cdee
 menu.title.text.justify: Center
 
 menu.items.bg: Solid Flat
-menu.items.bg.color: #291b36
+menu.items.bg.color: #111122
 menu.items.text.color: #d6cdee
 menu.items.disabled.text.color: #aaa0c0
 
@@ -23,17 +26,16 @@ menu.items.active.bg: Solid Flat
 menu.items.active.bg.color: #a886ef
 menu.items.active.text.color: #d6cdee
 
-menu.separator.color: #aaa0c0
+menu.separator.color: #d6cdee
 menu.separator.width: 1
-menu.separator.padding.width: 2
-menu.separator.padding.height: 4
+menu.separator.padding.width: 4
+menu.separator.padding.height: 8
 
 # Window focused
 window.active.title.separator.color: #291b36
 
 # Active window
-window.active.border.color: #a886ef
-
+window.active.border.color: #291b36
 
 window.active.title.bg: flat solid
 window.active.title.bg.color: #291b36
@@ -41,7 +43,7 @@ window.active.title.separator.color: #291b36
 window.active.text.justify: center
 
 window.active.label.bg: parentrelative
-window.active.label.text.color: #d6cdee
+window.active.label.text.color: #291b36
 
 window.active.handle.bg: flat solid
 window.active.handle.bg.color: #291b36
@@ -77,7 +79,7 @@ window.active.button.max.toggled.unpressed.image.color: #95d34c
 window.active.button.max.toggled.pressed.image.color: #95d34c
 
 # Inactive window
-window.inactive.border.color: #313148
+window.inactive.border.color: #291b36
 
 window.inactive.title.bg: flat solid
 window.inactive.title.bg.color: #291b36
@@ -85,7 +87,7 @@ window.inactive.title.separator.color: #291b36
 window.inactive.text.justify: center
 
 window.inactive.label.bg: parentrelative
-window.inactive.label.text.color: #aaa0c0
+window.inactive.label.text.color: #291b36
 
 window.inactive.handle.bg: flat solid
 window.inactive.handle.bg.color: #291b36
@@ -109,42 +111,34 @@ window.inactive.button.hover.bg: flat solid
 window.inactive.button.hover.bg.color: #291b36
 window.inactive.button.hover.image.color: #a886ef
 
-
 # OSD
-osd.border.width: 1
-osd.border.color: #a886ef
+osd.border.width: 3
+osd.border.color: #313148
 
-osd.bg: flat solid
-osd.bg.color: #291b36
-osd.label.bg: flat solid
-osd.label.bg.color: #291b36
-osd.label.text.color: #d6cdee
-
-# OSD
 osd.bg: Solid Flat
-osd.bg.color: #291b36
+osd.bg.color: #111122
 osd.bg.shadow: 0
 
-osd.border.width: 2
+osd.label.bg: flat solid
+osd.label.bg.color: #111122
+osd.label.text.color: #d6cdee
+
 osd.hilight.bg: Solid Flat
-osd.hilight.bg.color: #a886ef
+osd.hilight.bg.color: #95d34c
 osd.unhilight.bg: flat solid
-osd.unhilight.bg.color: #291b36
+osd.unhilight.bg.color: #111122
 
 osd.button.unpressed.bg: flat border
 osd.button.unpressed.bg.color: #291b36
 #osd.button.unpressed.*.border.color: #d6cdee
 
 osd.button.pressed.bg: flat border
-osd.button.pressed.bg.color: #a886ef
-#osd.button.pressed.*.border.color: #ffffff
+osd.button.pressed.bg.color: #95d34c
 
 osd.button.focused.bg: flat solid border
-osd.button.focused.bg.color: #d6cdee
-#osd.button.focused.*.border.color: #291b36
+osd.button.focused.bg.color: #95d34c
 
 osd.button.focused.box.color: #a886ef
-
 
 # Fonts
 window.active.label.text.font:shadow=n
@@ -152,12 +146,10 @@ window.inactive.label.text.font:shadow=n
 menu.items.font:shadow=n
 menu.title.text.font:shadow=n
 
-
 # Everything else
-border.width: 2
+border.width: 0
 padding.width: 4
 padding.height: 4
 window.handle.width: 0
 window.client.padding.width: 0
-window.label.text.justify: center
-#menu.overlap: 0
+window.label.text.justify: right
